@@ -1,0 +1,29 @@
+Package: orpheus
+Title: Hive connections and queries
+Version: 0.1.0
+Date: 2017-04-27
+Authors@R: c(
+    person("Matthew", "Van Hala", email = "matthew.van.hala@zurichna.com", role = c("aut", "cre")),
+    person("David", "Carlson", email = "david.carlson@zurichna.com", role = c("aut")))
+Description: Utility package with DBI methods for Hive, functions for querying
+    Hive, and reading and writing files to HDFS. orpheus supports working with a
+    Kerberized Hadoop cluster.
+Imports:
+    DBI,
+    dplyr,
+    lazyeval,
+    methods,
+    purrr,
+    readr,
+    rhdfs,
+    rJava,
+    stringr,
+    tibble,
+    tools
+Depends:
+    R (>= 3.1.0),
+    RJDBC
+License: Apache License(== 2.0)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 5.0.1
